@@ -85,8 +85,6 @@ export default class App extends Component {
       );
     };
 
-    console.log(this.state.routes);
-
     return (
       <View style={styles.MainContainer}>
         <View style={styles.SubContainer}>
@@ -109,7 +107,7 @@ export default class App extends Component {
                   style={{
                     lineWidth: 5,
                     lineJoin: 'bevel',
-                    lineColor: '#ff0000',
+                    lineColor: 'blue',
                   }}
                 />
               </MapboxGL.ShapeSource>
